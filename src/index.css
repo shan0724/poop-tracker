@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 額外修復：確保背景顏色能正確填滿手機螢幕 */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFBF0; /* 配合你的奶油色調 */
+}
